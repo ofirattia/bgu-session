@@ -1,7 +1,7 @@
 # CI/CD Workshop - Pokedex 
 
 [![Build Status](https://travis-ci.com/ofirattia/bgu-session.svg?branch=master)](https://travis-ci.com/ofirattia/bgu-session)
- 
+
 ## ACCESS TOKEN - TRAVIS
 Please make sure you are going to https://github.com/settings/tokens and create an ACCESS TOKEN for Travis, this token is being used for pushing and creating releases to your repoistory.
 The access token should be set after that on Travis settings as ENV Variable on https://travis-ci.com/github/YOUR_USER_NAME/YOUR_REPOSITORY/settings, the name of the variable should be GITHUB_TOKEN since we are using it in the .travis.yml file in this project.
