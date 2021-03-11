@@ -7,7 +7,7 @@ Please make sure you are going to https://github.com/settings/tokens and create 
 The access token should be set after that on Travis settings as ENV Variable on https://travis-ci.com/github/YOUR_USER_NAME/YOUR_REPOSITORY/settings, the name of the variable should be GITHUB_TOKEN since we are using it in the .travis.yml file in this project.
 - Please note that its not a must for this session, but you can do it to understand how you can use the travis for further activities.
  
-List of pokemons on the basis of React + Redux
+List of pokemons on the basis of React + Redux 
 
 ## Available Scripts
 
