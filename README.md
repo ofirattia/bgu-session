@@ -8,7 +8,7 @@ The access token should be set after that on Travis settings as ENV Variable on 
 - Please note that its not a must for this session, but you can do it to understand how you can use the travis for further activities.
  
 List of pokemons on the basis of React + Redux 
-
+ 
 ## Available Scripts 
 
 In the project directory, you can run:
