@@ -22,14 +22,19 @@
     "lint-staged": "^8.1.0",
     "prettier": "1.15.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-plugin-react": "^7.22.0"
+  },
   "scripts": {
     "start": "node serve.js",
     "start:dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "mocha --require babel-register",
     "eject": "react-scripts eject",
-    "travis": "npm run test && npm run build"
+    "travis": "npm run eslint && npm run test && npm run build",
+    "eslint": "eslint ./src/components/*",
+    "init-eslint": "eslint --init"
   },
   "husky": {
     "hooks": {
