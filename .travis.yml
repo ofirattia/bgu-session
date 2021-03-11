@@ -17,7 +17,7 @@ deploy:
   file: ${TRAVIS_BUILD_DIR}${REPO}-${BUILD_ENV}-${TRAVIS_TAG}-${TRAVIS_BUILD_NUMBER}.tar.gz
   skip_cleanup: true
   on:
-    tags: true
+    tags: false
 branches:
   only:
     - master
