@@ -9,7 +9,7 @@ The access token should be set after that on Travis settings as ENV Variable on 
  
 List of pokemons on the basis of React + Redux 
 
-## Available Scripts
+## Available Scripts 
 
 In the project directory, you can run:
 
