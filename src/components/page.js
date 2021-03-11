@@ -12,8 +12,6 @@ class Page extends Component {
   }
 
   render() {
-    const s = 1
-    s = 2
     let { displayedPokemons, isFetched, error } = this.props
 
     let pokemons = displayedPokemons.map(pokemon => {
