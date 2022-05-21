@@ -22,3 +22,6 @@ workflows:
   build-project-workflow:
     jobs:
       - build-project
+deployment:
+  master:
+    branch: circleci-project-setup
