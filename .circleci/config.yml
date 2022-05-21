@@ -14,5 +14,5 @@ jobs:
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
       - checkout
-     - run: npm install
-     — run: npm run travis
+      - run: npm install
+      — run: npm run travis
