@@ -15,7 +15,9 @@ jobs:
     steps:
          - checkout
          - run: npm install
-         - run: npm run travis
+         - run: npm run eslint
+         - run: npm run test
+         - run: npm run build
 workflows:
   build-project-workflow:
     jobs:
