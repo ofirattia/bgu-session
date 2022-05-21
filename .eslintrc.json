@@ -3,6 +3,10 @@
         "browser": true,
         "es2021": true
     },
+    "presets": [
+       "@babel/react" , 
+       "@babel/env" , 
+   ],
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended"
@@ -15,7 +19,8 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",    
+	"@babel/plugin-proposal-class-properties"
     ],
     "rules": {
 		"react/prop-types": 0,
